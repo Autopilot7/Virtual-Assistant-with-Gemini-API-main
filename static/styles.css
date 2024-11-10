@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+}
+
+header .logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Chat History Styles */
+.chat-history {
+    width: 40%;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.chat-history h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4a90e2;
+}
+
+.history-list {
+    list-style: none;
+}
+
+.history-list .user-message,
+.history-list .assistant-message {
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #e0f7fa;
+    color: #333;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.assistant-message {
+    background-color: #f1f8e9;
+    color: #333;
+}
+
+/* Input Section Styles */
+.chat-input-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-form input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.input-form .send-button {
+    width: 20%;
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #357abd;
+}
+
+.record-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f5a623;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+.record-button:hover {
+    background-color: #f2941a;
+}
+
+.response-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4a90e2;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    margin-top: 20px;
+}

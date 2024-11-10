@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Virtual Assistant</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo"></div>
+        <h1>Smart Virtual Assistant</h1>
+        <p>Your personal AI-powered assistant</p>
+    </header>
+
+    <!-- Main Section -->
+    <div class="container">
+        <!-- Chat History -->
+        <div class="chat-history" id="chatHistory">
+            <h2>Chat History</h2>
+            <div id="historyList" class="history-list"></div>
+        </div>
+
+        <!-- Input and Buttons -->
+        <div class="chat-input-section">
+            <form id="inputForm" class="input-form">
+                <input type="text" id="inputField" placeholder="Type your message here..." required>
+                <button type="submit" class="send-button">Send</button>
+            </form>
+            <button id="recordButton" class="record-button">🎤 Record</button>
+            <p id="responseText" class="response-text"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Powered by Google Generative AI</p>
+    </footer>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
