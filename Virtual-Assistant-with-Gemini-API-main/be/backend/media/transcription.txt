@@ -1,0 +1,2 @@
+Error during transcription: Unknown mime type: When passing a file like object to `path` (instead of a
+    path-like object) you must set the `mime_type` argument

@@ -1,0 +1,9 @@
+Flask
+flask-cors
+werkzeug
+google-generativeai
+gtts
+playsound
+speechrecognition
+PyPDF2
+python-docx
